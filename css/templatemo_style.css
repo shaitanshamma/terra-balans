@@ -1,0 +1,1613 @@
+/*
+
+Karma Template
+
+http://www.templatemo.com/tm-403-karma
+
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: 'Comfortaa', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/*carasmo's comment to hide horizontal scroll bar https://github.com/twbs/bootstrap/issues/10711*/
+
+h1, h2, p {
+    font-family: 'Comfortaa', Arial, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    padding-top: 85px;
+    margin-top: -85px;
+}
+
+section .outer_container {
+    margin-bottom: 50px;
+    background-color: #eeeeee;
+}
+
+section .row {
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+section h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 280px;
+    text-align: center;
+}
+
+.templatemo_ceo img {
+    margin-bottom: 10px;
+}
+
+.templatemo_ceo p {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/*http://css-tricks.com/vertically-center-multi-lined-text/*/
+.center-row {
+    display: table;
+}
+
+.center-row .center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*------------------------------------------------------
+	NAVIGATION 
+--------------------------------------------------------*/
+nav {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+nav .fa {
+    display: block;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.navbar {
+    background: #00587c;
+    min-height: 85px;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+    -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+    box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.specialist {
+    padding-top: 80px;
+    font-size: 50px;
+    display: block;
+    height: 320px;
+    line-height: 80px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    -moz-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .menu ul li a.current {
+    color: white;
+    background-color: #2d6987;
+}
+
+.navbar-default .navbar-brand {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    width: 300px;
+    color: white;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.terra {
+}
+
+.compliment {
+    color: #777777;
+    font-size: 11px;
+}
+
+.navbar > .container .navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #394665;
+}
+
+/*------------------------------------------------------
+	FLEXSLIDER OVERRIDING 
+--------------------------------------------------------*/
+.flexslider {
+    padding-top: 85px;
+}
+
+.flexslider a:hover, .flexslider a:focus {
+    text-decoration: none;
+}
+
+.flexslider {
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.flexslider .slides li {
+    position: relative;
+}
+
+.flex-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background: #9ccfd5;
+    z-index: 1;
+    padding: 20px;
+    margin: 0;
+}
+
+/*------------------------------------------------------
+	About Us Styles 
+--------------------------------------------------------*/
+#about h1 {
+    background-color: #49b3c0;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img {
+    padding: 0;
+}
+
+#about_content {
+    height: 280px;
+}
+
+.tb-p {
+    margin-top: 25px;
+}
+
+/*------------------------------------------------------
+	Our Team Styles
+--------------------------------------------------------*/
+#team .col-md-4 {
+    padding: 5px;
+}
+
+#team img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#team h1 {
+    background-color: #49b3c0;
+}
+
+#team p {
+    text-align: center;
+}
+
+#team_content, #team_content-2 {
+    height: 280px;
+}
+
+.test .test-a {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+}
+
+.test:hover .test-a {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.test-a {
+    background-color: #9ccfd5;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    opacity: 0;
+    padding-left: 0.5em;
+}
+
+.test-p {
+    font-size: 0.8em;
+}
+
+#team .container {
+    /*padding-bottom: 20px;*/
+}
+
+#team .about-button {
+    background-color: #49b3c0;
+}
+
+#team .about-button:hover {
+    background-color: #9ccfd5;
+    box-shadow: none;
+}
+
+.specialist-skills {
+    margin-left: -12px;
+    font-size: 0.74em;
+    height: 100%;
+}
+
+.specialist-skills-list {
+    margin-left: -1em;
+}
+
+.yagudin{
+    font-size: 0.7em;
+}
+
+/*------------------------------------------------------
+	Services Styles 
+--------------------------------------------------------*/
+.services_buttons .icon-button:last-of-type {
+    margin-bottom: 0;
+}
+
+.faq_buttons .icon-button:last-of-type {
+    margin-bottom: 0;
+}
+
+.filial_buttons .icon-button:last-of-type {
+    margin-bottom: 0;
+}
+
+.services_buttons .icon-button, .faq_buttons .icon-button, .filial_buttons .icon-button {
+    font-size: 300%;
+    color: white;
+    background-color: #9ccfd5;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 3px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    max-height: 80px;
+    /*line-height: 10px;*/
+}
+
+.filial_buttons .icon-button {
+    font-size: 400%;
+    color: white;
+    background-color: #9ccfd5;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 8px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    line-height: 88px;
+}
+
+.sds {
+    margin-left: -100px;
+}
+
+#filial_content {
+    margin-right: 35px;
+    margin-left: -15px;
+}
+
+#filials h1 {
+    background-color: #49b3c0;
+}
+
+.services_buttons .icon-button:hover, .services_buttons .icon-button.active {
+    background-color: #00587c;
+}
+
+.faq_buttons .icon-button:hover, .faq_buttons .icon-button.active {
+    background-color: #00587c;
+}
+
+.filial_buttons .icon-button:hover, .filial_buttons .icon-button.active {
+    background-color: #00587c;
+}
+
+#services h1 {
+    background-color: #00587c;
+}
+
+#services .col-md-2 {
+    padding-right: 0;
+}
+
+/*#services h1 {*/
+/*    height: 375px;*/
+/*    padding-top: 50px;*/
+/*}*/
+
+#services .fa {
+    line-height: 68px;
+}
+
+#services_content, #portfolio_content {
+    height: 280px;
+}
+
+#services_content .tab-pane, #portfolio_content .tab-pane {
+    padding: 15px;
+}
+
+#services_content a, #portfolio_content a {
+    color: #FFFFFF;
+}
+
+/*http://cssarrowplease.com/*/
+.arrow-box {
+    position: relative;
+    color: white;
+    background-color: #00587c;
+    border-radius: 4px;
+    margin-left: 30px;
+    height: 100%;
+}
+
+.arrow-left {
+    display: block;
+    width: 30px;
+    height: 58px;
+    background: url(../images/left_arrow_blue.png) no-repeat 0 0;
+    position: absolute;
+    left: 1px;
+    margin-top: 20px;
+}
+
+/*------------------------------------------------------
+	Skills Styles 
+--------------------------------------------------------*/
+.progress {
+    background-color: black;
+    border-radius: 0px;
+}
+
+.progress.vertical:last-of-type {
+    margin-right: 0;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*http://stackoverflow.com/questions/2015032/align-divs-to-bottom-or-baseline*/
+.progress-label {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/*http://stackoverflow.com/questions/16318375/how-to-align-vertically-a-progress-bar-in-twitter-bootstrap*/
+.progress.vertical {
+    position: relative;
+    width: 19%;
+    margin-right: 1.2%;
+    min-height: 240px;
+    float: left;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+#skills h1, .progress-bar {
+    background-color: #2d6987;
+}
+
+/*------------------------------------------------------
+	Portfolio Styles 
+--------------------------------------------------------*/
+.portfolio-item:hover .overlay-p {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+.portfolio-thumb .overlay-p {
+    background-color: #9ccfd5;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    opacity: 0;
+}
+
+.portfolio-thumb .overlay-p a {
+    padding-top: 1em;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.essension {
+    margin-left: -200px;
+}
+
+/*.test .test-a { position: absolute; color: black; text-decoration: none; }*/
+
+/*.test:hover .test-a { transition: all 0.3s ease-in-out 0s; visibility: visible; opacity: 1; }*/
+/*.test-a {*/
+/*	background-color: #9ccfd5;*/
+/*	position: absolute;*/
+/*	visibility: hidden;*/
+/*	top: 0;*/
+/*	left: 0;*/
+/*	width: 100%;*/
+/*	height: 120%;*/
+/*	opacity: 0;*/
+/*}*/
+/*.test-p{*/
+/*	font-size: 0.9em;*/
+/*}*/
+
+#portfolio .col-md-4 {
+    max-width: 206px;
+}
+
+#portfolio .row {
+    margin: 0;
+}
+
+#portfolio h1 {
+    background-color: #9ccfd5;
+}
+
+#portfolio h2 {
+    color: white;
+    padding: 8% 4% 4% 4%;
+    margin: 0;
+}
+
+#portfolio p {
+    color: #00587c;
+    padding: 0 4% 4% 4%;
+    margin: 0;
+    font-size: .9em;
+}
+
+#portfolio_content .col-md-4 {
+    padding: 0;
+}
+
+.portfolio-item {
+    width: 100%;
+    height: 300px;
+}
+
+.portfolio-text {
+    padding-top: 100px;
+    padding-left: 10px;
+
+}
+
+.potr-tex {
+    color: #00587c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.midl {
+    background-color: aliceblue;
+    background-color: #9ccfd5;
+
+}
+
+.right- {
+    background-color: #9ccfd5;
+    /*background-color: #49b3c0;*/
+    background-color: #49b3c0;
+
+
+}
+
+.left- {
+    background-color: #9ccfd5;
+    background-color: #49b3c0;
+    background-color: aliceblue;
+}
+
+.image-top {
+    height: 50px;
+}
+
+/*------------------------------------------------------
+	Study Styles
+--------------------------------------------------------*/
+.study-item:hover .overlay-p {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.study-thumb .overlay-p {
+    background-color: #2d6987;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.study-thumb .overlay-p a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#study .col-md-4 {
+    max-width: 206px;
+}
+
+#study .row {
+    margin: 0;
+}
+
+#study h1 {
+    background-color: #2d6987;
+}
+
+#study h2 {
+    color: white;
+    padding: 8% 4% 4% 4%;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+#study p {
+    color: white;
+    padding: 0 4% 4% 4%;
+    margin: 0;
+    font-size: .9em;
+}
+
+#study_content .col-md-4 {
+    padding: 0;
+}
+
+/*------------------------------------------------------
+	Blog Styles 
+--------------------------------------------------------*/
+.blog_post {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.blog_posts_container {
+    max-width: 620px;
+}
+
+.blog_post h2 {
+    position: absolute;
+    background: #9ccfd5;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#blog .col-md-7 {
+    padding-right: 46px;
+    overflow: hidden;
+}
+
+#blog h1 {
+    background-color: #9ccfd5;
+}
+
+/*.blog_post{*/
+/*	background-image: url(/images/templatemo_image_01.jpg);*/
+/*	background-color: white;*/
+/*}*/
+.img-blog {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.blog-p {
+    margin-top: 15px;
+    font-size: 0.75em;
+}
+
+/*------------------------------------------------------
+	Contact Styles 
+--------------------------------------------------------*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: #489099;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 90, 148, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(226, 90, 148, 0.6);
+}
+
+#contact h1 {
+    background-color: #489099;
+}
+
+#contact_content {
+    height: 280px;
+}
+
+#contact-2_content {
+    height: 280px;
+}
+
+#contact-2 h1 {
+    background-color: #489099;
+}
+
+.contact-list {
+    list-style: none;
+    padding-top: 20px;
+    font-size: 1.6em;
+    padding-left: -20px;
+    margin-top: 0.7em;
+    text-align: center;
+}
+
+.icon-contact {
+    padding-right: 15px;
+    font-size: 1.7em;
+}
+
+.contact-ul {
+    /*padding-left: -2em;*/
+    /*padding-top: 1em;*/
+    width: 600px;
+    font-weight: bold;
+    color: #00587c;
+    text-align: center;
+    /*background-color: #fff;*/
+}
+
+#contact-2 a {
+    color: #00587c;
+}
+
+/*------------------------------------------------------
+	Map Styles 
+--------------------------------------------------------*/
+#map h1 {
+    background-color: #489099;;
+}
+
+#google_map {
+    width: 100%;
+    height: 280px;
+    outline: 0;
+    border: 0;
+}
+
+/*------------------------------------------------------
+	FOOTER 
+--------------------------------------------------------*/
+footer {
+    background: #00587c;
+    min-height: 141px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer img {
+    padding-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+footer .row {
+    height: 100%;
+}
+
+.back_to_top {
+    background-color: #c5454a;
+    text-align: center;
+    height: 41px;
+    line-height: 41px;
+}
+
+/*http://stackoverflow.com/questions/2939914/vertically-align-text-in-a-div*/
+
+.social_buttons a {
+    text-decoration: none;
+}
+
+#templatemo_copyright {
+    font-size: .9em;
+    margin-top: 10px;
+}
+
+.img-logo {
+    margin-top: -30px;
+}
+
+/*------------------------------------------------------
+	BOOTSTRAP OVERRIDING 
+--------------------------------------------------------*/
+.col-md-4, .col-md-5, .col-md-7, .col-md-8 {
+    padding: 0;
+}
+
+.btn-primary {
+    font-size: 2em;
+    padding-bottom: 10px;
+    background-color: #489099;
+    /*box-shadow: 0px 0px 0px 0px #9ccfd5;*/
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 0px;
+    -moz-transition: background-color .5s ease;
+    -o-transition: background-color .5s ease;
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: #9ccfd5;
+    /*box-shadow: 0px 3px 0px 0px rgb(226, 90, 148);*/
+}
+
+.ccc {
+    margin-top: 30px;
+}
+
+.about {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+#study .about-button {
+    background-color: #2d6987;
+}
+
+#study .about-button:hover {
+    background-color: #9ccfd5;
+    box-shadow: none;
+}
+
+.course {
+    padding-top: 170px;
+}
+
+/*------------------------------------------------------
+	STUDY
+--------------------------------------------------------*/
+.course__basic h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    /*text-align: center;*/
+    font-size: 2em;
+    display: inline-block;
+    background-color: #2d6987;
+    height: 280px;
+    /*padding-top: 100px;*/
+}
+
+.course__basic p {
+    font-weight: bold;
+}
+
+#study_basic .study_name {
+
+}
+
+/*------------------------------------------------------
+	SPESIALIST QUERIES
+--------------------------------------------------------*/
+.top_spes {
+    padding-top: 100px;
+}
+
+.top_spes h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    /*text-align: center;*/
+    font-size: 3em;
+    display: inline-block;
+    background-color: #2d6987;
+    height: 280px;
+}
+
+.spesials {
+    margin-top: 30px;
+    font-size: 1em;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.study_name h1 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thetha h1 {
+    width: 450px;
+    /*padding-top: 130px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.study_name h1 {
+    font-size: 2.2em;
+    width: 500px;
+    line-height: 50px;
+}
+
+.thetha__ {
+    margin-left: 40px;
+}
+/*------------------------------------------------------
+	FEEDBACK
+--------------------------------------------------------*/
+.feedback{
+    margin-top: 0;
+    padding-top: 100px;
+}
+
+/*------------------------------------------------------
+	MEDIA QUERIES 
+--------------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4.5em;
+    }
+
+    .services_buttons, .faq_buttons, .filial_buttons {
+        text-align: right;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .menu ul li a.current {
+        height: 85px;
+    }
+
+    #about .col-md-7 {
+        padding-left: 50px;
+    }
+
+    #about .col-md-8 {
+        padding-left: 20px;
+    }
+
+    #team .col-md-7 {
+        padding-right: 50px;
+    }
+
+    #skills .col-md-7 {
+        padding-right: 90px;
+    }
+
+    #portfolio .col-md-7 {
+        padding-left: 46px;
+    }
+
+    #contact .col-md-7 {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 3.5em;
+    }
+
+    .services_buttons, .faq_buttons {
+        text-align: right;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .menu ul li a.current {
+        height: 85px;
+    }
+
+    #about .col-md-7 {
+        padding-left: 30px;
+    }
+
+    #about .col-md-8 {
+        padding-left: 20px;
+    }
+
+    #team .col-md-7 {
+        padding-right: 30px;
+    }
+
+    #skills .col-md-7 {
+        padding-right: 30px;
+    }
+
+    #portfolio .col-md-7 {
+        padding-left: 30px;
+    }
+
+    #contact .col-md-7 {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav {
+        font-size: 1em;
+    }
+
+    .btn-primary {
+        font-size: 1.6em;
+    }
+
+    .services_buttons {
+        text-align: left;
+    }
+
+    .faq_buttons, .filial_buttons {
+        text-align: left;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .menu ul li a.current {
+        height: 85px;
+    }
+
+    #about .col-md-8 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #about img {
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #services .col-md-2, #services_content, #filial_content, #filials .col-md-2 {
+        padding-left: 0;
+        padding-top: 20px;
+        height: 300px;
+    }
+
+    #portfolio p {
+        padding: 7.3% 4%;
+    }
+
+    #portfolio .col-md-7, #blog .col-md-7, #contact .col-md-7 {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    #blog .col-md-7 {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav .fa {
+        display: inline;
+        text-align: left;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        height: 100%;
+    }
+
+    .btn-primary {
+        font-size: 1.5em;
+    }
+
+    .services_buttons, .faq_buttons, .filial_buttons {
+        text-align: left;
+    }
+
+    .services_buttons .icon-button {
+        font-size: 210%;
+    }
+
+    .faq_buttons .icon-button {
+        font-size: 210%;
+    }
+
+    .filial_buttons .icon-button {
+        font-size: 210%;
+    }
+
+    .blog_post img {
+        max-width: 100%;
+    }
+
+    #about .col-md-8 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #about img {
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #team_content, #team_content-2 {
+        width: 100%;
+    }
+
+    #services .col-md-2, #services_content {
+        padding-left: 0;
+        padding-top: 20px;
+        height: 300px;
+    }
+
+    #services_tabs, #services_filial {
+        padding-left: 10px;
+    }
+
+    #faq_tabs {
+        padding-left: 10px;
+    }
+
+    #portfolio .col-md-7, #blog .col-md-7, #contact .col-md-7 {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .specialist-skills {
+        font-size: 0.74em;
+    }
+
+    .specialist-skills-list {
+        margin-left: -1em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .specialist {
+        font-size: 1.6em;
+        display: block;
+        line-height: 30px;
+        padding-top: 0;
+        height: auto;
+    }
+
+    #about h1 {
+        height: auto;
+    }
+
+    section h1 {
+        font-size: 1.6em;
+        line-height: 50px;
+    }
+
+    #about h1 {
+        background-color: #49b3c0;
+        height: auto;
+    }
+
+    .top_spes h1 {
+        text-transform: uppercase;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 2em;
+        display: block;
+        background-color: #2d6987;
+        height: auto;
+        padding-top: 0;
+    }
+    .study_name h1 {
+        font-size: 1.8em;
+         width: auto;
+        line-height: 30px;
+    }
+
+    .study_name h1 {
+         height: auto;
+    }
+    .course__basic h1 {
+        text-transform: uppercase;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /*line-height: 50px;*/
+        /* text-align: center; */
+        /*font-size: 2em;*/
+        display: block;
+         height: auto;
+         padding-top: 0;
+    }
+    .thetha {
+         margin-left: 0px;
+    }
+
+    nav .fa {
+        display: inline;
+        text-align: left;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .col-xxs {
+        display: block;
+        float: none;
+        width: 100%
+    }
+
+    .social_buttons {
+        margin-top: 30px;
+    }
+
+    .pull-right {
+        float: left !important;
+    }
+
+    /*do not pull-right in mobile view*/
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        height: 100%;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .btn-primary {
+        font-size: 1.2em;
+    }
+
+    .services_buttons, .faq_buttons {
+        text-align: left;
+    }
+
+    .services_buttons .icon-button {
+        font-size: 190%;
+    }
+
+    .faq_buttons .icon-button {
+        font-size: 190%;
+    }
+
+    .filial_buttons .icon-button {
+        font-size: 190%;
+    }
+
+    .blog_post {
+        width: 50%;
+    }
+
+    .blog_post img {
+        max-width: 100%;
+    }
+
+    #about .col-md-8 {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    #about img {
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #team_content, #team_content-2 {
+        width: 100%;
+    }
+
+    #services .col-md-2, #services_content, #filial_content, #filials .col-md-2 {
+        padding-left: 0;
+        padding-top: 20px;
+        height: 300px;
+    }
+
+    #services_tabs, #services_filial {
+        padding-left: 0;
+    }
+
+    #faq_tabs {
+        padding-left: 0;
+    }
+
+    #portfolio .col-md-7, #blog .col-md-7, #contact .col-md-7 {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .contact-ul {
+        padding-left: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .contact-list {
+        font-size: 1.5em;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #about img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 55px;
+        /* align-items: center; */
+    }
+    .specialist-skills-list {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    body {
+        font-size: 10px;
+    }
+
+    .btn-primary {
+        font-size: 1.1em;
+    }
+
+    .blog_post h2 {
+        font-size: 1.1em;
+        padding: 5px 5px;
+    }
+
+    .services_buttons .icon-button {
+        font-size: 180%;
+    }
+
+    .faq_buttons .icon-button {
+        font-size: 180%;
+    }
+
+    .filial_buttons .icon-button {
+        font-size: 180%;
+        margin-left: -10px;
+    }
+
+    #filial_content {
+        width: 50%;
+        height: 20%;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        height: 100%;
+    }
+
+    #services_tabs {
+        padding-left: 0;
+    }
+
+    #faq_tabs, #services_filial {
+        padding-left: 0;
+    }
+
+    .specialist-skills {
+        font-size: 0.74em;
+    }
+
+    .specialist-skills-list {
+        margin-left: 0;
+    }
+
+    .thetha__ {
+         margin-left: 0;
+    }
+    .specialist-skills {
+        /* font-size: 0.74em; */
+    }
+
+
+    .spesials {
+        margin-top: 30px;
+        font-size: 1em;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    .specialist-skills {
+        margin-left: -25px;
+        /*font-size: 0.74em;*/
+        height: 100%;
+    }
+
+    .portfolio-text {
+        padding-top: 100px;
+        padding-left: 10px;
+
+    }
+
+    .potr-tex {
+        color: #00587c;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .overlay-p {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .thetha {
+        margin-left: 0;
+    }
+
+    .contact-list {
+        /*padding-top: 20px;*/
+        font-size: 1.2em;
+        /*padding-left: -120px;*/
+        margin-top: 0.5em;
+        /*text-align: center;*/
+    }
+
+    .icon-contact {
+        padding-right: 15px;
+        font-size: 1.7em;
+    }
+
+    .contact-ul {
+        /*padding-left: -4em;*/
+        /*padding-top: 1em;*/
+        width: 350px;
+        font-weight: bold;
+        color: #00587c;
+        text-align: center;
+        /*background-color: #fff;*/
+    }
+
+    .filial_buttons .icon-button {
+        font-size: 200%;
+        margin-left: 0;
+        margin-top: 40px;
+        height: 50px;
+        width: 50px;
+        line-height: 5px;
+    }
+
+    #filials .row {
+        height: 450px;
+    }
+
+    #filial_content {
+        margin-top: -180px;
+        margin-left: 60px;
+    }
+
+    #services_filial {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        margin-left: 100px;
+    }
+
+    .google_map_3 {
+
+    }
+    section {
+         padding-top: 0;
+        margin-top: 30px;
+    }
+    #about img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        /* align-items: center; */
+    }
+    .contact-ul {
+        /* padding-top: 1em; */
+        width: 350px;
+        font-weight: bold;
+        color: #00587c;
+        text-align: center;
+        /*margin-left: -40px;*/
+        /*font-size: 0.9em;*/
+    }
+    #about img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        /* align-items: center; */
+    }
+    .yagudin{
+        font-size: 1.5em;
+    }
+}
+
+
+/* http://codepen.io/minimalmonkey/pen/Ecpla */
+
+/* Wrapper */
+.social_buttons .icon-button {
+    background-color: #20283e;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    line-height: 100px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 60px;
+    height: 100px;
+}
+
+/* Icons */
+.icon-button i {
+    background: none;
+    color: white;
+    line-height: 3rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    /* width: 3.6rem; */
+    z-index: 10;
+}
+
+
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-vk,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube {
+    color: #9ccfd5;
+}
+
+#study h2 {
+    color: white;
+    padding: 8% 4% 4% 4%;
+    margin: 0;
+    font-size: 1.1em;
+}
+#study p {
+    color: white;
+    padding: 0 4% 4% 4%;
+    margin: 0;
+    font-size: .7em;
+}
+.portfolio-item:hover .thetha {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+    /* z-index: 1; */
+    margin-left: -200px;
+}
+.test:hover .test-a {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+    z-index:1;
+}
+
+/* End minimalmonkey */
